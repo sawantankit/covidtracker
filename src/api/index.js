@@ -15,6 +15,7 @@ export const fetchData = async (country) => {
         return { confirmed, recovered, deaths, lastUpdate };
     }
     catch (error) {
+        console.log(error);
 
     }
 }
